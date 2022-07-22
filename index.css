@@ -1,0 +1,223 @@
+
+
+   .container{
+    display: grid;
+    
+    grid-template-columns: 300px 300px 300px;
+ 
+   
+    
+    justify-content: center;
+    position: sticky;
+    height: 500px;
+    padding-top: 130px;
+   
+}
+.tb1{
+    
+    background-color: orange;
+    padding-left: 38px;
+    
+}
+.tb2{
+    background-color: #53bdeb;
+    padding-left: 38px;
+   
+}
+.tb3{
+    background-color: green;
+    padding-left: 38px;
+     
+}
+h1{
+    text-transform: uppercase;
+    font-family:'Gill Sans',  'Trebuchet MS', sans-serif ;
+    color: white;
+}
+p{
+    font-size: 15px;
+    color: white;
+  text-align: left;
+  padding-top: 25px;
+  border-radius: 5%;
+}
+
+#btn {
+    color: orange;
+    background-color: white;
+    
+    
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 70px;
+    height: 45px;
+width: 145px;
+font-size: 16px;
+font-weight: 490;
+    
+}
+#btn2 {
+    color: #53bdeb;
+    background-color: white;
+    
+    
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 70px;
+    height: 45px;
+width: 145px;
+font-size: 16px;
+font-weight: 490;
+}
+#btn3 {
+    color:green;
+    background-color: white;
+    
+    font-size: 16px;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 70px;
+    height: 45px;
+width: 145px;
+font-weight: 490;
+    
+}
+#btn:hover{
+    
+  color: white;
+    background-color:orange;
+    
+}
+#btn2:hover{
+    
+      
+    color: white;
+    background-color: #53bdeb;
+    
+}
+#btn3:hover{
+    
+      
+    color: white;
+    background-color:green;
+    
+}
+svg{
+    padding-top: 50px;
+}
+        @media screen {(max-width: 480px)
+
+
+            .container{
+                display: grid;
+                
+                grid-template-columns: 300px 300px 300px;
+             
+               
+                
+                justify-content: center;
+                position: sticky;
+                height: 500px;
+                padding-top: 130px;
+               
+            }
+            .tb1{
+                
+                background-color: orange;
+                padding-left: 38px;
+                
+            }
+            .tb2{
+                background-color: #53bdeb;
+                padding-left: 38px;
+               
+            }
+            .tb3{
+                background-color: green;
+                padding-left: 38px;
+                 
+            }
+            h1{
+                text-transform: uppercase;
+                font-family:'Gill Sans',  'Trebuchet MS', sans-serif ;
+                color: white;
+            }
+            p{
+                font-size: 15px;
+                color: white;
+              text-align: left;
+              padding-top: 25px;
+              border-radius: 5%;
+            }
+          
+            #btn {
+                color: orange;
+                background-color: white;
+                
+                
+                border-radius: 30px;
+                border: 2px solid white;
+                cursor: pointer;
+                margin-top: 70px;
+                height: 45px;
+          width: 145px;
+          font-size: 16px;
+          font-weight: 490;
+                
+            }
+            #btn2 {
+                color: #53bdeb;
+                background-color: white;
+                
+                
+                border-radius: 30px;
+                border: 2px solid white;
+                cursor: pointer;
+                margin-top: 70px;
+                height: 45px;
+          width: 145px;
+          font-size: 16px;
+          font-weight: 490;
+            }
+            #btn3 {
+                color:green;
+                background-color: white;
+                
+                font-size: 16px;
+                border-radius: 30px;
+                border: 2px solid white;
+                cursor: pointer;
+                margin-top: 70px;
+                height: 45px;
+          width: 145px;
+          font-weight: 490;
+                
+            }
+            #btn:hover{
+                
+              color: white;
+                background-color:orange;
+                
+            }
+            #btn2:hover{
+                
+                  
+                color: white;
+                background-color: #53bdeb;
+                
+            }
+            #btn3:hover{
+                
+                  
+                color: white;
+                background-color:green;
+                
+            }
+            svg{
+                padding-top: 50px;
+            }
+          
+            }
